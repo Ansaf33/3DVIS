@@ -93,7 +93,7 @@ if generator:
   map_3D = mapGenerator.generate_map(og_popname,og_areaname,og_latname,og_lonname,census_path,shapefile_path)
   
   
-  output_path = 'output/3DMap.html'
+  output_path = 'data/3DMap.html'
 
   
   map_3D.to_html(output_path)
@@ -110,7 +110,6 @@ if generator:
   
   # CLEAR ALL THE FILES INSIDE DATA 
   clear_files('data')
-  clear_files('output')
   
   
   

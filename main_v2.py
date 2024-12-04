@@ -49,7 +49,7 @@ def generate_map(p,a,lat,lon,cp,shp):
 
   combined = shape.merge(census,how='left')
 
-  json_path = 'output/'+state+'.json'
+  json_path = 'data/'+state+'.json'
   combined.to_file(json_path,'GeoJSON')
 
   # ----------------------------------- JSON FILE ( CREATE NEW COLUMNS )

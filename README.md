@@ -15,7 +15,7 @@ Some of these can be found at https://data.census.gov/table/DECENNIALDHC2020.P1?
 
 These can primarily be found at https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2020&layergroup=Census+Tracts.
 
--Proper column names must be ensured. For instance, the NAME attribute used as foreign key for merging both the .shp and .csv files. 
+- Proper column names must be ensured. For instance, the NAME attribute used as foreign key for merging both the .shp and .csv files. 
 
 - The relation must also have the following attributes for : **Latitude, Longitude, Land Area (in m^2), Geometry**
  
@@ -27,4 +27,6 @@ These can primarily be found at https://www.census.gov/cgi-bin/geo/shapefiles/in
 
 - Users need to enter their column names for the attributes mentioned : **Latitude, Longitude, Land Area, Population**
 
+## GET THE MAP 
 
+run `streamlit run homepage.py`, which will direct you to a browser.

@@ -13,7 +13,8 @@ def get_state_name(df):
 # ----- REMOVE UNNECCESSARY COLUMNS IN THE DATAFRAME 
 def remove_unneccessary_columns(df):
   # REMOVE THE FINAL COLUMN
-  df.drop(columns=['Unnamed: 3'],inplace=True)
+  # COMMENTED OUT SINCE ALL DATASETS DO NOT HAVE THIS COLUMN - EXTRA COLUMN TO (NOT) DEAL WITH
+  #df.drop(columns=['Unnamed: 3'],inplace=True)
   # REMOVE THE NAME COLUMN
   df.drop(columns=['NAME'],inplace=True)
   # AFTER REMOVING THE NAME COLUMN, REPLACE THE NUMBER COLUMN WITH THE NAME COLUMN
